@@ -1,0 +1,106 @@
+body{
+    overflow-x: hidden;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+.head{
+    background-color: #2C3333;
+    color: white;
+    text-align: center;
+}
+.head h1{
+    font-size: 20px;
+    padding-bottom: 2px;    
+    padding-top: 7px;
+    
+}
+.head p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.part-one{
+    display: flex;
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+    border: 2px solid #E4DCCF;
+    border-radius: 10px;
+    width: 30%;
+}
+.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
+    padding: 10px 0px 10px 10px;
+    font-size: 23px;
+}
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+
+.part-one, .part-two{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 50px;
+}
+.part-one img, .part-two img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info{
+    border: 0px;
+    color: aqua;
+    font-size: 17px;
+}
+.drpdwn{
+    padding-left: 6px;
+}
+span{
+    color: red;
+    text-decoration: line-through;
+}
+.btn{
+    width: 83px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+button{
+    margin-left: 77%;
+    margin-bottom: 10px;
+}
+.wishlist{
+    padding-top: 50px;
+}
+.wishlist h2{
+    text-align: center;
+}
+.wishlist ul{
+    padding-left: 34%;
+    width: 100%;
+}
+.total h1{
+    text-align: center;
+    padding-top: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 28px;
+    padding-top: 5px;
+    padding-right: 7px;
+    height: 28px;
+}
