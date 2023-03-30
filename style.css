@@ -1,4 +1,4 @@
-body{
+html, body{
     overflow-x: hidden;
 }
 
@@ -103,4 +103,145 @@ ul li a{
     padding-top: 5px;
     padding-right: 7px;
     height: 28px;
+}
+@media only screen and (max-width: 1280px){
+    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+    font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
+    font-size: 20px;
+    }
+    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+    font-size: 12px;}
+    button{
+        margin-left: 70%;
+    }
+    .wishlist ul{
+        padding-left: 27%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 912px){
+
+.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
+    font-size: 15px;
+
+}
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+font-size: 9px;
+}
+.btn{
+    width: 70px;
+    height: 25px;
+}
+button{
+    margin-left: 68%;
+}
+.info{
+    font-size: 13px;
+
+}
+.wishlist ul{
+    padding-left: 24%;
+
+}
+}
+
+@media only screen and (max-width:540px){
+    .part-one, .part-two{
+        flex-direction: column;
+        padding-left: 29px;
+
+    }
+
+    .card1, .card2, .card3, .card4, .card5, .card6{
+    margin-top: 15px;
+    width: 90%;
+    }
+
+    .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
+    font-size: 32px;
+    }
+
+    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+    font-size: 17px;
+    }
+
+    .info{
+        font-size: 19px;
+    }
+    .btn{
+        width: 94px;
+        height: 39px;
+    }
+
+    button{
+        margin-left: 75%;
+    }
+    ul li{
+        font-size: 13px;
+    }
+    .wishlist ul{
+        padding-left: 14%;
+    }
+}
+@media only screen and (max-width:420px){
+
+    .part-one, .part-two{
+    padding-left: 22px;
+    }
+    .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
+    font-size: 23px;
+    }
+    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+    font-size: 12px;
+    }
+
+    button{
+        margin-left: 70%;
+
+    }
+    ul li{
+        font-size: 11px;
+    }
+    .wishlist ul{
+        padding-left: 9%;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .head h1 {
+        font-size: 17px;
+}
+.head p {
+    font-size: 11px;
+}
+.part-one, .part-two {
+    padding-left: 14px;
+}
+.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2 {
+    font-size: 18px;
+}
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p {
+    font-size: 9px;
+}
+.info {
+    font-size: 14px;
+}
+.btn {
+    width: 71px;
+    height: 27px;
+}
+ul li {
+    font-size: 8px;
+}
+.total h1{
+    
+    font-size: 16px;
+}
 }
