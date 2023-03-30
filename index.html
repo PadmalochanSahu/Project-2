@@ -34,13 +34,15 @@
                     
                     <p style="font-size: 15px;">Product code: 1001</p>
                     
-                    <div class="drpdwn">
-                        <select name="info" class="info">
-                            <option value="info1">See More Information</option>
-                        </select>
+                    <div class="drpdwn-1">
+                     <label for="first">See More Information <div class="arrow"> &#x3e; </div></label>
+                     <input type="checkbox" name ="drpdwn" id="first" />
+                     <div class="content">
+                        <p>About<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eos eius est iure debitis sunt.</p>
+                     </div>
                     </div>
                     <p style="padding-top: 60px;">Price: SEK 4500 <span>SEK 6000</span></p>
-                    <button class="btn">Add to list</button>
+                    <button class="btn" id="camera" onclick="additems()">Add to list</button>
                 </div>
                 <div class="card2">
                     <img src="./FitBit Versa Smartwatch.png" />
@@ -52,13 +54,15 @@
                     
                     <p style="font-size: 15px;">Product code: 1002</p>
                  
-                    <div class="drpdwn">
-                        <select name="info" class="info">
-                            <option value="info1">See More Information</option>
-                        </select>
-                    </div>
+                    <div class="drpdwn-1">
+                        <label for="second">See More Information <div class="arrow"> &#x3e; </div></label>
+                        <input type="checkbox" name ="drpdwn" id="second" />
+                        <div class="content">
+                           <p>About<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eos eius est iure debitis sunt.</p>
+                        </div>
+                       </div>
                     <p style="padding-top: 60px;">Price: SEK 1600 <span>SEK 2000</span></p>
-                    <button class="btn">Add to list</button>
+                    <button class="btn" id="watch" onclick="additems()">Add to list</button>
                 </div>
                 <div class="card3">
                     <img src="./Sony Wireless Headphones.png" />
@@ -69,11 +73,13 @@
                     </p>
                     
                     <p style="font-size: 15px;">Product code: 1003</p>
-                    <div class="drpdwn">
-                        <select name="info" class="info">
-                            <option value="info1">See More Information</option>
-                        </select>
-                    </div>
+                    <div class="drpdwn-1">
+                        <label for="third">See More Information <div class="arrow"> &#x3e; </div></label>
+                        <input type="checkbox" name ="drpdwn" id="third" />
+                        <div class="content">
+                           <p>About<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eos eius est iure debitis sunt.</p>
+                        </div>
+                       </div>
                     <p style="padding-top: 60px;">Price: SEK 300</p>
                     <button class="btn">Add to list</button>
                 </div>
@@ -87,11 +93,13 @@
                         Speaker for Outdoor Travel Black
                     </p>
                     <p style="font-size: 15px;">Product code: 1004</p>
-                    <div class="drpdwn">
-                        <select name="info" class="info">
-                            <option value="info1">See More Information</option>
-                        </select>
-                    </div>
+                    <div class="drpdwn-1">
+                        <label for="forth">See More Information <div class="arrow"> &#x3e; </div></label>
+                        <input type="checkbox" name ="drpdwn" id="forth" />
+                        <div class="content">
+                           <p>About<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eos eius est iure debitis sunt.</p>
+                        </div>
+                       </div>
                     <p style="padding-top: 60px;">Price: SEK 1800 <span>SEK 2000</span></p>
                     <button class="btn">Add to list</button>
                 </div>
@@ -103,11 +111,13 @@
                         Four Speakers 32GB/3GB RAM Rose Go...
                     </p>
                     <p style="font-size: 15px;">Product code: 1005</p>
-                    <div class="drpdwn">
-                        <select name="info" class="info">
-                            <option value="info1">See More Information</option>
-                        </select>
-                    </div>
+                    <div class="drpdwn-1">
+                        <label for="fifth">See More Information <div class="arrow"> &#x3e; </div></label>
+                        <input type="checkbox" name ="drpdwn" id="fifth" />
+                        <div class="content">
+                           <p>About<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eos eius est iure debitis sunt.</p>
+                        </div>
+                       </div>
                     <p style="padding-top: 60px;">Price: SEK 2000</p>
                     <button class="btn">Add to list</button>
                 </div>
@@ -119,11 +129,13 @@
                         & print
                     </p>
                     <p style="font-size: 15px;">Product code: 1006</p>
-                    <div class="drpdwn">
-                        <select name="info" class="info">
-                            <option value="info1">See More Information</option>
-                        </select>
-                    </div>
+                    <div class="drpdwn-1">
+                        <label for="sixth">See More Information <div class="arrow"> &#x3e; </div></label>
+                        <input type="checkbox" name ="drpdwn" id="sixth" />
+                        <div class="content">
+                           <p>About<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eos eius est iure debitis sunt.</p>
+                        </div>
+                       </div>
                     <p style="padding-top: 60px;">Price: SEK 2500 <span>SEK 3000</span></p>
                     <button class="btn">Add to list</button>
                 </div>
@@ -144,6 +156,17 @@
             <h1>Your wishlist total is: SEK 6300</h1>
         </div>
     </section>
+    <script>
+        function additems(){
+            document.getElementById('camera');
+            console.log("camera")
+            
+            
+        }
+
+       
+
+    </script>
 </body>
 
 </html>
