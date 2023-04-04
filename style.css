@@ -1,130 +1,173 @@
-html, body{
+html,
+body {
     overflow-x: hidden;
 }
 
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
     font-family: 'DM Sans', sans-serif;
 }
-.head{
+
+.head {
     background-color: #2C3333;
     color: white;
     text-align: center;
 }
-.head h1{
+
+.head h1 {
     font-size: 20px;
-    padding-bottom: 2px;    
+    padding-bottom: 2px;
     padding-top: 7px;
-    
+
 }
-.head p{
+
+.head p {
     padding-bottom: 20px;
     font-size: 18px;
     font-weight: 400;
 }
-.part-one{
+
+.part-one {
     display: flex;
 }
-.card1, .card2, .card3, .card4, .card5, .card6{
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
     border: 2px solid #E4DCCF;
     border-radius: 10px;
     width: 30%;
 }
-.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
+
+.card1 h2,
+.card2 h2,
+.card3 h2,
+.card4 h2,
+.card5 h2,
+.card6 h2 {
     padding: 10px 0px 10px 10px;
     font-size: 23px;
 }
-.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p,
+.card5 p,
+.card6 p {
     padding-left: 10px;
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 6px;
 }
 
-.part-one, .part-two{
+.part-one,
+.part-two {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     padding-top: 50px;
 }
-.part-one img, .part-two img{
+
+.part-one img,
+.part-two img {
     width: 100%;
-    border-radius:8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
 }
 
-.info{
+.info {
     border: 0px;
     color: aqua;
     font-size: 17px;
 }
-.drpdwn-1{
+
+.drpdwn-1 {
     padding-left: 6px;
 }
-span{
+
+span {
     color: red;
     text-decoration: line-through;
 }
-.btn{
+
+.btn {
     width: 83px;
     height: 30px;
     background-color: black;
     color: white;
     border-radius: 5px;
 }
-button{
+
+button {
     margin-left: 77%;
     margin-bottom: 10px;
 }
-.wishlist{
+
+.wishlist {
     padding-top: 50px;
 }
-.wishlist h2{
+
+.wishlist h2 {
     text-align: center;
 }
-.wishlist ul{
+
+.wishlist ul {
     padding-left: 34%;
     width: 100%;
 }
-.total h1{
+
+.total h1 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 80px
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: red;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
 }
-.logo img{
+
+.logo img {
     width: 28px;
     padding-top: 5px;
     padding-right: 7px;
     height: 28px;
 }
-.drpdwn-1{
+
+.drpdwn-1 {
     padding-left: 10px;
 }
-.drpdwn-1 label{
+
+.drpdwn-1 label {
     display: flex;
     align-items: center;
     cursor: pointer;
     color: aqua;
 }
-.drpdwn-1 .content{
+
+.drpdwn-1 .content {
     display: none;
 }
-.arrow{
+
+.arrow {
     padding-left: 7px;
     padding-top: 4px;
 }
-.drpdwn-1 label + input[type="checkbox"]{
+
+.drpdwn-1 label+input[type="checkbox"] {
     display: none;
 }
-.drpdwn-1 label + input[type="checkbox"]:checked + .content{
+
+.drpdwn-1 label+input[type="checkbox"]:checked+.content {
     display: block;
     width: 90%;
     border: 1px solid grey;
@@ -132,25 +175,48 @@ ul li a{
     background-color: grey;
     color: white;
 }
-.drpdwn-1 label + input[type="checkbox"]:checked + .arrow{
+
+.drpdwn-1 label+input[type="checkbox"]:checked+.arrow {
     transform: rotate(90deg);
 }
 
-@media only screen and (max-width: 1280px){
-    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
-    font-size: 15px;
+@media only screen and (max-width: 1280px) {
+
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+        font-size: 15px;
     }
 }
-@media only screen and (max-width: 1024px){
-    .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
-    font-size: 20px;
+
+@media only screen and (max-width: 1024px) {
+
+    .card1 h2,
+    .card2 h2,
+    .card3 h2,
+    .card4 h2,
+    .card5 h2,
+    .card6 h2 {
+        font-size: 20px;
     }
-    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
-    font-size: 12px;}
-    button{
+
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+        font-size: 12px;
+    }
+
+    button {
         margin-left: 70%;
     }
-    .wishlist ul{
+
+    .wishlist ul {
         padding-left: 27%;
     }
 }
@@ -158,129 +224,203 @@ ul li a{
 
 
 
-@media only screen and (max-width: 912px){
+@media only screen and (max-width: 912px) {
 
-.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
-    font-size: 15px;
+    .card1 h2,
+    .card2 h2,
+    .card3 h2,
+    .card4 h2,
+    .card5 h2,
+    .card6 h2 {
+        font-size: 15px;
 
-}
-.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
-font-size: 9px;
-}
-.btn{
-    width: 70px;
-    height: 25px;
-    font-size: 10px;
-}
-button{
-    margin-left: 68%;
-}
-.info{
-    font-size: 13px;
+    }
 
-}
-.wishlist ul{
-    padding-left: 24%;
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+        font-size: 9px;
+    }
 
-}
+    .btn {
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    button {
+        margin-left: 68%;
+    }
+
+    .info {
+        font-size: 13px;
+
+    }
+
+    .wishlist ul {
+        padding-left: 24%;
+
+    }
 }
 
-@media only screen and (max-width:540px){
-    .part-one, .part-two{
+@media only screen and (max-width:540px) {
+
+    .part-one,
+    .part-two {
         flex-direction: column;
         padding-left: 29px;
 
     }
 
-    .card1, .card2, .card3, .card4, .card5, .card6{
-    margin-top: 15px;
-    width: 88%;
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        margin-top: 15px;
+        width: 88%;
     }
 
-    .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
-    font-size: 32px;
+    .card1 h2,
+    .card2 h2,
+    .card3 h2,
+    .card4 h2,
+    .card5 h2,
+    .card6 h2 {
+        font-size: 32px;
     }
 
-    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
-    font-size: 17px;
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+        font-size: 17px;
     }
 
-    .info{
+    .info {
         font-size: 19px;
     }
-    .btn{
+
+    .btn {
         width: 94px;
         height: 39px;
     }
 
-    button{
+    button {
         margin-left: 75%;
     }
-    ul li{
+
+    ul li {
         font-size: 13px;
     }
-    .wishlist ul{
+
+    .wishlist ul {
         padding-left: 14%;
     }
-    .part-one, .part-two{
+
+    .part-one,
+    .part-two {
         padding-top: 0px;
+    }
 }
-}
-@media only screen and (max-width:420px){
 
-    .part-one, .part-two{
-    padding-left: 22px;
-    }
-    .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
-    font-size: 23px;
-    }
-    .card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
-    font-size: 12px;
+@media only screen and (max-width:420px) {
+
+    .part-one,
+    .part-two {
+        padding-left: 22px;
     }
 
-    button{
+    .card1 h2,
+    .card2 h2,
+    .card3 h2,
+    .card4 h2,
+    .card5 h2,
+    .card6 h2 {
+        font-size: 23px;
+    }
+
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+        font-size: 12px;
+    }
+
+    button {
         margin-left: 70%;
 
     }
-    ul li{
+
+    ul li {
         font-size: 11px;
     }
-    .wishlist ul{
+
+    .wishlist ul {
         padding-left: 9%;
     }
 }
 
-@media only screen and (max-width:280px){
+@media only screen and (max-width:280px) {
     .head h1 {
         font-size: 17px;
-}
-.head p {
-    font-size: 11px;
-}
-.part-one, .part-two {
-    padding-left: 14px;
-}
-.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2 {
-    font-size: 18px;
-}
-.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p {
-    font-size: 9px;
-}
-.info {
-    font-size: 14px;
-}
-.btn {
-    width: 71px;
-    height: 27px;
-}
-ul li {
-    font-size: 8px;
-}
-.total h1{
-    
-    font-size: 16px;
-}
-.part-one, .part-two{
-    padding-top: 0px;
-}
+    }
+
+    .head p {
+        font-size: 11px;
+    }
+
+    .part-one,
+    .part-two {
+        padding-left: 14px;
+    }
+
+    .card1 h2,
+    .card2 h2,
+    .card3 h2,
+    .card4 h2,
+    .card5 h2,
+    .card6 h2 {
+        font-size: 18px;
+    }
+
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+        font-size: 9px;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 71px;
+        height: 27px;
+    }
+
+    ul li {
+        font-size: 8px;
+    }
+
+    .total h1 {
+
+        font-size: 16px;
+    }
+
+    .part-one,
+    .part-two {
+        padding-top: 0px;
+    }
 }
